@@ -1,5 +1,7 @@
 # 🛍️ Nykaa Navbar Clone
 
+[live@](https://vsnykanavbar.netlify.app/)
+
 A responsive navigation bar inspired by the Nykaa website, built using **HTML**, **Tailwind CSS**, and **Font Awesome**.  
 This project demonstrates how to design a modern, gradient-based navigation bar with a search box, icons, and responsive layout behavior for different screen sizes.
 
