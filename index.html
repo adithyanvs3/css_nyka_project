@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+    <title> nyka-nav-bar</title>
+</head>
+
+<!-- sm phone
+md tablet
+lg ipad
+xl lap
+2xl desktop -->
+
+<body>
+    <div class=" text-grey-300 min-h-screen ">
+
+        <nav
+            class="bg-gradient-to-r from-orange-200 from-10%  to-cyan-500 to-90%  text-white flex justify-end flex-grow items-center px-12">
+
+            <div class="flex  items-center gap-2">
+                <ul class="flex gap-4  ">
+                    <li class="hover:text-white text-black cursor-pointer hidden  items-center md:flex"><i
+                            class="fa-solid fa-mobile-screen "></i>
+                        Get App</li> <span class="text-black hidden md:flex">|</span>
+                    <li class="hover:text-white text-black cursor-pointer hover:underline"> <i
+                            class="fa-solid fa-location-dot"></i>Store Events</li><span class="text-black">|</span>
+                    <li class="hover:text-white text-black cursor-pointer"><i class="fa-solid fa-gift "></i>
+                        Gift Cards</li><span class="text-black">|</span>
+                    <li class="hover:text-white text-black cursor-pointer "><i
+                            class='far fa-question-circle  cursor-pointer hover:text-white' style='font-size:22px'></i>
+                        Help</li>
+                </ul>
+
+        </nav>
+
+        <div class="h-17  flex flex-grow items-center   px-6 justify-evenly ">
+
+
+            <div class="flex">
+
+                <span class="inline-block w-25  h-6 overflow-hidden rounded-lg hover cursor-move cursor-pointer">
+                    <img src="nyk.png" alt="image" class="w-full h-full object-cover">
+
+
+                </span>
+
+                <div class="hidden md:flex" > 
+                    <span class="px-4 py-1 font-semibold text-sm hover hover:text-pink-600 cursor-pointer">Categories</span>
+                    <span class="px-4 py-1 font-semibold text-sm hover hover:text-pink-600 cursor-pointer">Brands</span>
+                    <span class="px-4 py-1 font-semibold text-sm hover hover:text-pink-600 cursor-pointer">Luxe</span>
+                    <span class="px-4 py-1 font-semibold text-sm hover hover:text-pink-600 cursor-pointer ">Nykaa
+                        Fashion</span>
+                    <span class="px-4 py-1 font-semibold text-sm hover hover:text-pink-600 cursor-pointer">Beauty
+                        Advice</span>
+                </div>
+
+
+
+
+
+            </div>
+
+
+            <div class="flex items-center ">
+                <form class="flex w-[260px]  px-4 py-3  rounded-sm  bg-gray-200 ">
+
+                    <div class="flex gap-2  ">
+                        <h3><i class="fa-solid fa-magnifying-glass text-gray-500 "></i></h3>
+                        <input type="text" placeholder="  Search on Nyka  " class="w-40 border-none outline-none ">
+
+                    </div>
+
+                </form>
+
+                <button class="bg-pink-500 w-15 m-2 rounded-sm hover:text-pink-300 cursor-pointer py-2 ">Sign In</button>
+                <i class="fa-solid fa-basket-shopping ml-8"></i>
+
+            </div>
+
+            <!-- <h3 class="absolute left-260"> <button type="submit "
+                    class=" px-4 py-2 bg-pink-500 rounded-md text-white font-semibold hover hover:bg-pink-400 cursor-pointer">sign in</button>
+                <i class="fa-solid fa-basket-shopping ml-8"></i>
+            </h3> -->
+
+
+
+        </div>
+
+
+        <hr class="text-gray-400">
+
+
+        <div class="bg-gray- h-13 flex  items-center justify-between ml-13 mr-13">
+            <span class="ml-3 mr-3 font-normal text-gray-400  hover hover:text-pink-600 cursor-pointer">Makeup</span>
+            <span class="ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Skin</span>
+            <span
+                class="ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Appliances</span>
+            <span class=" hidden md:flex ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer ">Bath Body</span>
+            <span class="ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Natural</span>
+            <span class=" hidden md:flex ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Mom Baby</span>
+            <span class=" hidden md:flex ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Health
+                Wellness</span>
+            <span class="ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Men</span>
+            <span class=" hidden md:flex ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Fragrance</span>
+            <span class=" hidden md:flex ml-3 mr-3  font-normal text-gray-400 hover hover:text-pink-600 cursor-pointer">Lingerie
+                Accessories</span>
+            <span class="ml-2 mr-3  font-normal text-gray-400 w-19 h-4 hover hover:text-pink-600 cursor-pointer"><img
+                    src="pic4.png" alt="offers"></span>
+
+        </div>
+
+
+        <hr class="text-gray-400">
+
+        <div class="h-100  px-2  flex  justify-center items-center flex-wrap gap-4 mt-2">
+
+            <span class="inline-block w-140 m-2 h-100 overflow-hidden rounded-lg hover cursor-move cursor-pointer">
+                <img src="pic1.jpg" alt="image" class="w-full h-full object-cover">
+            </span>
+
+            <span class="inline-block w-140 m-2 h-100 overflow-hidden rounded-lg hover cursor-move cursor-pointer">
+                <img src="pic2.jpg" alt="image" class="w-full h-full object-cover">
+            </span>
+
+            <span class="inline-block w-140 m-2 h-100 overflow-hidden rounded-lg hover cursor-move cursor-pointer">
+                <img src="pic3.jpeg" alt="image" class="w-full h-full object-cover">
+            </span>
+
+
+
+        </div>
+
+
+    </div>
+</body>
+
+</html>
